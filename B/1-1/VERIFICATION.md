@@ -72,4 +72,4 @@
 
 ## 배포 검증
 
-배포 권한 확인 대기 중입니다. Pages 배포 성공 후 실제 URL에서의 결과를 이 항목에 추가해야 합니다.
+GitHub 소스 업로드를 완료했고 [첫 자동 실행](https://github.com/Zero-error123/main-cource/actions/runs/35809881027)에서 저장소 체크아웃과 JavaScript 문법 검사가 통과했습니다. Pages가 비활성화되어 Configure Pages 단계가 실패했습니다. 소유자가 Pages의 Source를 GitHub Actions로 설정한 뒤 배포를 재실행하고 실제 URL에서의 결과를 추가해야 합니다.

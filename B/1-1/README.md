@@ -5,7 +5,7 @@
 - 공개 프로필: [Zero-error123](https://github.com/Zero-error123)
 - 제출 저장소: [Zero-error123/main-cource](https://github.com/Zero-error123/main-cource)
 - 배포 예정 주소: https://zero-error123.github.io/main-cource/
-- 현재 배포 상태: 로컬 구현·검증 완료. 저장소 쓰기 권한과 Pages 설정 확인 후 배포해야 합니다. 위 주소는 아직 배포 완료 주소가 아닙니다.
+- 현재 배포 상태: GitHub 소스 업로드와 자동 JavaScript 문법 검사 완료. 소유자 계정에서 Pages의 Source를 GitHub Actions로 설정한 뒤 배포해야 합니다. 위 주소는 아직 배포 완료 주소가 아닙니다.
 
 ## 실행
 
