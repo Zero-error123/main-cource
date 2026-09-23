@@ -1,0 +1,50 @@
+name: Deploy B/1-1 portfolio to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "B/1-1/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.repository == 'Zero-error123/main-cource'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+      - name: Check JavaScript syntax
+        run: |
+          node --check B/1-1/js/config.js
+          node --check B/1-1/js/app.js
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+      - name: Prepare public files only
+        run: |
+          mkdir -p _site
+          cp B/1-1/index.html B/1-1/.nojekyll _site/
+          cp -R B/1-1/css B/1-1/js _site/
+          mkdir -p _site/images
+          cp B/1-1/images/profile.png B/1-1/images/favicon.svg _site/images/
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v5
