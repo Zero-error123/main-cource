@@ -6,4 +6,6 @@
 | --- | --- | --- |
 | [B/1-1](B/1-1/README.md) | 나를 소개하는 반응형 포트폴리오 | HTML, CSS, JavaScript |
 
+[B/1-1 포트폴리오 바로 보기](https://zero-error123.github.io/main-cource/)
+
 실행 방법과 구현 설명은 각 프로젝트의 README에서 확인합니다.

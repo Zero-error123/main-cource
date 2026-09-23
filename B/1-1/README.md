@@ -4,8 +4,8 @@
 
 - 공개 프로필: [Zero-error123](https://github.com/Zero-error123)
 - 제출 저장소: [Zero-error123/main-cource](https://github.com/Zero-error123/main-cource)
-- 배포 예정 주소: https://zero-error123.github.io/main-cource/
-- 현재 배포 상태: GitHub 소스 업로드와 자동 JavaScript 문법 검사 완료. 소유자 계정에서 Pages의 Source를 GitHub Actions로 설정한 뒤 배포해야 합니다. 위 주소는 아직 배포 완료 주소가 아닙니다.
+- 배포 주소: [포트폴리오 열기](https://zero-error123.github.io/main-cource/)
+- 현재 배포 상태: **배포 및 공개 사이트 검증 완료** (2026-09-23). [성공한 GitHub Actions 실행](https://github.com/Zero-error123/main-cource/actions/runs/35810175587)
 
 ## 실행
 
@@ -145,7 +145,7 @@ Pages 초기 설정에는 저장소 관리자 권한이 필요할 수 있습니�
 
 ## 스크린샷
 
-실제 GitHub 응답을 표시한 로컬 Chrome 화면입니다. 전체 페이지를 캡처했습니다.
+실제 GitHub Pages 배포 주소에서 GitHub API 응답을 표시한 Chrome 화면입니다. 데스크톱·모바일·다크 모드의 전체 페이지를 캡처했습니다.
 
 ### 데스크톱 · 1440px
 
